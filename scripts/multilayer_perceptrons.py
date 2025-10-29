@@ -12,7 +12,6 @@ MLPConfig instance.
 import torch
 from torch import nn
 
-
 class BaselineMLP(nn.Module):
     """
     Baseline MLP architecture. Includes 2 hidden layers and 1 output layer; 64 nodes in the first hidden layer, use of 
