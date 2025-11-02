@@ -5,9 +5,6 @@ The helpers below expose three ready-to-train networks:
     - baseline_mlp: 64 -> 32 -> 1
     - deep_feature_mlp: 128 -> 64 -> 32 -> 1
     - compact_batchnorm_mlp: 64 -> 32 -> 1 with BatchNorm on the hidden layers
-
-The core builder is flexible enough to support additional architectures by supplying a custom
-MLPConfig instance.
 """
 import torch
 from torch import nn
